@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react'
-
 const Home = () => (
   <div>
     <h1 className='mb-5 animate-in text-4xl font-bold'>
