@@ -34,20 +34,14 @@ const Meta = () => {
       <meta property='og:locale' content='en_US' />
       <meta
         property='og:url'
-        content={`https://template-idm1try.vercel.app${router.asPath}`}
+        content={`https://template.idm1try.ru${router.asPath}`}
       />
       <link
         rel='canonical'
-        href={`https://template-idm1try.vercel.app${router.asPath}`}
+        href={`https://template.idm1try.ru${router.asPath}`}
       />
-      <meta
-        property='og:image'
-        content='https://template-idm1try.vercel.app/og.png'
-      />
-      <meta
-        name='twitter:image'
-        content='https://template-idm1try.vercel.app/og.png'
-      />
+      <meta property='og:image' content='https://template.idm1try.ru/og.png' />
+      <meta name='twitter:image' content='https://template.idm1try.ru/og.png' />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:title' content='Next.js + TailwindCSS template' />
       <meta name='twitter:site' content='@idm1try' />
