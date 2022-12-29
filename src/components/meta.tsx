@@ -40,8 +40,14 @@ const Meta = () => {
         rel='canonical'
         href={`https://template.idm1try.ru${router.asPath}`}
       />
-      <meta property='og:image' content='https://template.idm1try.ru/og.png' />
-      <meta name='twitter:image' content='https://template.idm1try.ru/og.png' />
+      <meta
+        property='og:image'
+        content='https://idm1try.ru/api/og?heading=Next.js%20%2b%20TailwindCSS+template'
+      />
+      <meta
+        name='twitter:image'
+        content='https://idm1try.ru/api/og?heading=Next.js%20%2b%20TailwindCSS+template'
+      />
       <meta name='twitter:card' content='summary_large_image' />
       <meta name='twitter:title' content='Next.js + TailwindCSS template' />
       <meta name='twitter:site' content='@idm1try' />
